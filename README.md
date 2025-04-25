@@ -21,4 +21,5 @@ This project predicts house prices using the Ames Housing dataset, applying mult
 
 ## 📈 Feature Importance (from XGBoost)
 
-The model found features like OverallQual, GrLivArea, and YearBuilt to be highly influential in price prediction.
+The model found features like Lot Area, Lot Frontage, and Gr Live Area to be highly influential in price prediction.
+![Feature Importance](notebooks/feature_importance.png)
