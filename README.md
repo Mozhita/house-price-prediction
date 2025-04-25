@@ -2,6 +2,19 @@
 
 This project predicts house prices using the Ames Housing dataset, applying multiple regression models including Linear Regression, Random Forest, and XGBoost.
 
+## 📊 Dataset
+- **Source:** [Kaggle](https://www.kaggle.com/datasets/prevek18/ames-housing-dataset)
+- **Size:** ~80 features, 2900+ observations
+- **Target variable:** SalePrice (USD)
+
+## 🚀 Steps
+1. Data cleaning and preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Feature selection and engineering
+4. Model building (Linear Regression, Random Forest, XGBoost)
+5. Evaluation (MSE, MAE, R²)
+6. Finding Top Important Features
+
 ## 📊 Models and Results
 
 | Model              | R² Score | MAE         |
@@ -19,17 +32,19 @@ This project predicts house prices using the Ames Housing dataset, applying mult
 ## 📁 Repository Structure
 house-price-prediction/
 ├── data/                   # Folder to store the dataset
-│   └── .gitkeep            # Keeps the empty folder in Git
+│   └── AmesHousing.csv     # dataset in csv format
 ├── notebooks/              # Jupyter notebooks for EDA and modeling
-│   ├── eda.ipynb           # Notebook for data exploration
-│   └── modeling.ipynb      # Notebook for training and evaluating models
+│   └── house-price.ipynb   # Notebook for data exploration, training and evaluating models
 ├── outputs/                # Output files such as plots or model files
 │   └── feature_importance.png  # Feature importance plot from XGBoost
 ├── README.md               # Project documentation
 ├── requirements.txt        # List of Python packages used
-└── .gitignore              # Specifies files and folders to ignore in Git
 
 ## 📈 Feature Importance (from XGBoost)
 
 The model found features like Lot Area, Lot Frontage, and Gr Live Area to be highly influential in price prediction.
-![Feature Importance](notebooks/feature_importance.png)
+![Feature Importance](outputs/feature_importance.png)
+
+## 🧠 Author
+👩‍💻 Mozhdeh Talebian  
+📍 Biomedical Engineering background + Data Science Enthusiast
