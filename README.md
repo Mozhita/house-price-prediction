@@ -17,7 +17,17 @@ This project predicts house prices using the Ames Housing dataset, applying mult
 - Jupyter Notebook
 
 ## 📁 Repository Structure
-house-price-prediction/ ├── data/ # Placeholder for dataset (e.g. AmesHousing.csv) │ └── .gitkeep # Ensures the folder is tracked by git ├── notebooks/ # Jupyter notebooks for EDA and modeling │ ├── eda.ipynb # Exploratory Data Analysis │ └── modeling.ipynb # Model training & evaluation (Linear, RF, XGBoost) ├── outputs/ # Output files like plots or saved models │ └── feature_importance.png # XGBoost feature importance plot ├── README.md # Project documentation and overview ├── requirements.txt # List of dependencies for reproducibility └── .gitignore # Files/folders to ignore in git (e.g., data files)
+house-price-prediction/
+├── data/                   # Folder to store the dataset
+│   └── .gitkeep            # Keeps the empty folder in Git
+├── notebooks/              # Jupyter notebooks for EDA and modeling
+│   ├── eda.ipynb           # Notebook for data exploration
+│   └── modeling.ipynb      # Notebook for training and evaluating models
+├── outputs/                # Output files such as plots or model files
+│   └── feature_importance.png  # Feature importance plot from XGBoost
+├── README.md               # Project documentation
+├── requirements.txt        # List of Python packages used
+└── .gitignore              # Specifies files and folders to ignore in Git
 
 ## 📈 Feature Importance (from XGBoost)
 
